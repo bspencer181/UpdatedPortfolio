@@ -17,7 +17,12 @@ body {
    margin: 10px;
 }
 
-
+#carousel {
+  margin-left: 5%;
+  margin-right: 5%;
+ height: auto;
+ max-width: 95%;
+}
 
 h1 {
     border-bottom: 3px solid #CCC;
