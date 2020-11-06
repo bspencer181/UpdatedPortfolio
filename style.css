@@ -1,8 +1,8 @@
 body {
     padding: 25px;
-    background-color: white;
+    background-color: blueviolet;
     color: black;
-    font-size: 25px;
+    font-size: 40px;
   }
   
   .dark-mode {
@@ -10,20 +10,18 @@ body {
     color: white;
   }
 
-.planner {
-  color: black;
-}
 
 #img{
     float: left;
     height: auto; 
-    max-width: 15%;
+    max-width: 20%;
    margin: 10px;
 }
 
 #carousel {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 5%;
   width: auto;
   height: 700px;
   overflow: hidden;
@@ -45,7 +43,8 @@ body {
   width: 50%;
 }
 
-h1 {
+.h1 {
+   
     border-bottom: 3px solid #CCC;
     padding-bottom:3px;
     font-family: 'Fjalla One', sans-serif;
