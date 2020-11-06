@@ -10,6 +10,10 @@ body {
     color: white;
   }
 
+.planner {
+  color: black;
+}
+
 #img{
     float: left;
     height: auto; 
@@ -20,9 +24,19 @@ body {
 #carousel {
   margin-left: 5%;
   margin-right: 5%;
- height: auto;
- max-width: 95%;
+  width: auto;
+  height: 225px;
+  max-height: 225px;
 }
+
+.carousel-control.left {
+  margin-left: -25px;
+}
+
+.carousel-control.right {
+  margin-right: -25px;
+}
+
 
 h1 {
     border-bottom: 3px solid #CCC;
