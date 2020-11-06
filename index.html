@@ -16,6 +16,7 @@
     <title>Beth Spencer</title>
   </head>
   <body>
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#"></a>
       <button
@@ -61,6 +62,7 @@
         </ul>
       </div>
     </nav>
+    <!-- About me, main section -->
     <div id="container">
       <h1>About Me</h1>
       <img
@@ -82,7 +84,47 @@
       </p>
       <p>Follow the links in the navagation bar to see some of my work!</p>
     </div>
+<!-- cards -->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://raw.githubusercontent.com/bspencer181/GameDataFinder/Develop/Assets/homepage.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Game Data Finder</h5>
+        <p>Video game search engine using data from two APIs</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://github.com/bspencer181/UpdatedPortfolio/blob/main/assets/password.JPG?raw=true" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Random Password Generator</h5>
+        <p>This application uses uppercase and lowercase letters, numbers, and speical characters to generate a random password</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://github.com/bspencer181/DayPlanner/blob/main/Capture.JPG?raw=true" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Day Planner</h5>
+        <p class="planner">An interactive, hourly day planner</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
+<!-- footer -->
     <div class="footer">
       &copy; 2020 Beth Spencer &bull; (620) 605-2613 &bull; beth.spencer88@icloud.com
       <p><button onclick="myFunction()">Toggle dark mode</button></p>
