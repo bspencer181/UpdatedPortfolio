@@ -1,6 +1,6 @@
 body {
     padding: 25px;
-    background-color: blueviolet;
+    background-color: silver;
     color: black;
     font-size: 40px;
   }
@@ -28,8 +28,8 @@ body {
 }
 
 .carousel-item{
-  width: 100%; /*width you want*/
-  height: 500px; /*height you want*/
+  width: 100%; 
+  height: 500px; 
   overflow: hidden;
 }
 .carousel-item img{
@@ -61,14 +61,6 @@ h1 {
     text-align: center;
   }
 
-#container {
-        margin: auto;
-        width: 60%;
-        padding: 10px;
-        font-family: 'Lato', sans-serif;
-        font-size: 25px;
-            
-  }
 
 p {
  font-size: x-large;
@@ -77,6 +69,12 @@ p {
 
 #descriptions {
   font-size: medium;
+  font-family: 'Lato', sans-serif;
+  padding-top: 15px;
   
 }
 
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  
+}
