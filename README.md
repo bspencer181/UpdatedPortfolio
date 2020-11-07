@@ -1,5 +1,6 @@
 # UpdatedPortfolio
-<a href="https://github.com/bspencer181/UpdatedPortfolio/blob/main/assets/portfolio.JPG?raw=true">
+(https://github.com/bspencer181/UpdatedPortfolio/blob/main/assets/portfolio.JPG?raw=true)
+
 ## Description
 This application gives the user a summary of my work and contact information
 ## How It Works
